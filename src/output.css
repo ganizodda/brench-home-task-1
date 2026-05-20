@@ -258,6 +258,9 @@
   .ml-\[x\] {
     margin-left: x;
   }
+  .block {
+    display: block;
+  }
   .flex {
     display: flex;
   }
@@ -306,11 +309,17 @@
   .h-\[200px\] {
     height: 200px;
   }
+  .h-\[210px\] {
+    height: 210px;
+  }
   .h-\[250px\] {
     height: 250px;
   }
   .h-\[300px\] {
     height: 300px;
+  }
+  .h-\[310px\] {
+    height: 310px;
   }
   .h-\[400px\] {
     height: 400px;
@@ -350,6 +359,9 @@
   }
   .w-\[50\%\] {
     width: 50%;
+  }
+  .w-\[80\%\] {
+    width: 80%;
   }
   .w-\[100\%\] {
     width: 100%;
@@ -484,6 +496,9 @@
   }
   .bg-\[\#F4F4F5\] {
     background-color: #F4F4F5;
+  }
+  .bg-\[aqua\] {
+    background-color: aqua;
   }
   .bg-\[green\] {
     background-color: green;
