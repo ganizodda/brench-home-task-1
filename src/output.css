@@ -8,10 +8,12 @@
     --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
       "Courier New", monospace;
     --color-amber-50: oklch(98.7% 0.022 95.277);
+    --color-black: #000;
     --spacing: 0.25rem;
     --text-2xl: 1.5rem;
     --text-2xl--line-height: calc(2 / 1.5);
     --font-weight-bold: 700;
+    --radius-2xl: 1rem;
     --default-font-family: var(--font-sans);
     --default-mono-font-family: var(--font-mono);
   }
@@ -186,6 +188,9 @@
   .mt-\[40px\] {
     margin-top: 40px;
   }
+  .mt-\[50px\] {
+    margin-top: 50px;
+  }
   .mt-\[80px\] {
     margin-top: 80px;
   }
@@ -194,6 +199,9 @@
   }
   .mb-\[10px\] {
     margin-bottom: 10px;
+  }
+  .mb-\[30px\] {
+    margin-bottom: 30px;
   }
   .mb-\[40px\] {
     margin-bottom: 40px;
@@ -215,6 +223,9 @@
   }
   .table {
     display: table;
+  }
+  .h-\[00px\] {
+    height: 00px;
   }
   .h-\[1\] {
     height: 1;
@@ -269,6 +280,12 @@
   }
   .h-\[500px\] {
     height: 500px;
+  }
+  .h-\[600px\] {
+    height: 600px;
+  }
+  .h-\[670px\] {
+    height: 670px;
   }
   .h-\[1100px\] {
     height: 1100px;
@@ -354,6 +371,9 @@
   .rounded {
     border-radius: 0.25rem;
   }
+  .rounded-2xl {
+    border-radius: var(--radius-2xl);
+  }
   .rounded-\[2\] {
     border-radius: 2;
   }
@@ -403,6 +423,9 @@
   }
   .bg-\[\#212731\] {
     background-color: #212731;
+  }
+  .bg-\[\#2127310D\] {
+    background-color: #2127310D;
   }
   .bg-\[\#D7B18D\] {
     background-color: #D7B18D;
@@ -480,8 +503,17 @@
   .text-\[\#212731\] {
     color: #212731;
   }
+  .text-\[\#808080b9\] {
+    color: #808080b9;
+  }
+  .text-\[1\] {
+    color: 1;
+  }
   .text-\[25\] {
     color: 25;
+  }
+  .text-\[black\] {
+    color: black;
   }
   .text-\[c\] {
     color: c;
@@ -504,6 +536,9 @@
   .text-\[white\] {
     color: white;
   }
+  .text-black {
+    color: var(--color-black);
+  }
   .underline {
     text-decoration-line: underline;
   }
@@ -521,6 +556,11 @@
       display: flex;
     }
   }
+  .lg\:hidden {
+    @media (width >= 64rem) {
+      display: none;
+    }
+  }
   .lg\:h-\[100\%\] {
     @media (width >= 64rem) {
       height: 100%;
@@ -534,6 +574,11 @@
   .lg\:h-\[200px\] {
     @media (width >= 64rem) {
       height: 200px;
+    }
+  }
+  .lg\:h-\[300px\] {
+    @media (width >= 64rem) {
+      height: 300px;
     }
   }
   .lg\:h-\[400px\] {
